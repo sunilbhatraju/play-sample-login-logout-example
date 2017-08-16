@@ -1,0 +1,15 @@
+
+@*@(message: String, style: String = "scala")*@
+
+@*@defining(play.core.PlayVersion.current) { version =>*@
+
+
+<html>
+<body>
+
+Welcome to HomePage
+<br>
+<a href="@routes.HomeController.logout()">
+    <input type="submit" value="Logout">
+</body>
+</html>
